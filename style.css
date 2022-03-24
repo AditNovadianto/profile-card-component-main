@@ -1,0 +1,129 @@
+html {
+  --Dark-gray: hsl(0, 0%, 59%);
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--Dark-cyan);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  background-position: bottom 40vh right 50vw, top 40vh left 50vw;
+}
+
+.container {
+  width: 300px;
+  height: 310px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.background {
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(images/bg-pattern-card.svg);
+}
+
+.picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url(images/image-victor.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  box-shadow: 0px 0px 0px 5px white;
+}
+
+.content1 {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--Dark-grayish-blue);
+}
+
+.satu {
+  font-weight: bold;
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.content2 {
+  text-align: center;
+  margin-top: 10px;
+  color: var(--Dark-grayish-blue);
+  font-size: 13px;
+}
+
+.box {
+  width: 100%;
+  margin-top: 55px;
+  height: 100px;
+  border: 1px solid rgb(231, 231, 231);
+  overflow: hidden;
+}
+
+.content3 {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  color: var(--Very-dark-desaturated-blue);
+  padding: 10px;
+}
+
+.kotak1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.jumlah {
+  text-align: center;
+}
+
+.followers {
+  font-weight: normal;
+  font-size: 10px;
+  color: var(--Dark-grayish-blue);
+  text-align: center;
+}
+
+.kotak2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.jumlah1 {
+  text-align: center;
+}
+
+.followers1 {
+  font-weight: normal;
+  font-size: 10px;
+  color: var(--Dark-grayish-blue);
+  text-align: center;
+}
+
+.jumlah3 {
+  text-align: center;
+}
+
+.followers2 {
+  font-weight: normal;
+  font-size: 10px;
+  color: var(--Dark-grayish-blue);
+  text-align: center;
+}
+
+.attribution {
+  margin-top: 10px;
+}
